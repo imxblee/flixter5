@@ -6,8 +6,7 @@ gem 'rails', '4.0.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -26,6 +25,9 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem 'bootstrap-sass', '~> 3.3.5.1'
+gem 'sprockets', '2.11.0'
+gem 'sass-rails'
 
 gem 'rails_12factor', group: :production
 group :doc do
